@@ -1,15 +1,19 @@
 {
-  "name": "as",
+  "name": "base",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+     "start" : "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "asdss": "^1.0.1"
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
   }
 }
